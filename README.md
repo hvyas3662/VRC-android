@@ -1,6 +1,5 @@
 # VolleyRequestConverter-android
 Convert your volley request in URL and find value of Parameter using key.
-For a working implementation, please have a look at the sample directory
 
  ## How to use
  
