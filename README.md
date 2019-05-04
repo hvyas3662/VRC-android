@@ -1,6 +1,22 @@
 # VolleyRequestConverter-android
 Convert your volley request in URL and find value of Parameter using key.
 
+## How to configure
+
+ 1. Add maven in your root build.gradle at the end of repositories
+ 2. Add the dependency
+```gradle
+allprojects {
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+}
+
+dependencies {
+  implementation 'com.github.hvyas3662:EasyDayPicker-android:1.0'
+}
+```
+
  ## How to use
  
  ```java
