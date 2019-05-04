@@ -26,5 +26,5 @@ dependencies {
      Map<String, String> params = new HashMap<>();
      params.put("param1", "data1");
      params.put("param2", "data2");
-     String full_url = new VolleyRequestConverter(url, params).getRequestedUrl();
+     String full_url = new VRC(url, params).getRequestedUrl();
 ```
