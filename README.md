@@ -15,7 +15,7 @@ allprojects {
 }
 
 dependencies {
-  implementation 'com.github.hvyas3662:VolleyRequestConverter-android:1.0'
+  implementation 'com.github.hvyas3662:VolleyRequestConverter-android:3.0'
 }
 ```
 
