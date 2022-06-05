@@ -1,8 +1,9 @@
 package com.hvyas.volleyrequestconverter
 
 @Suppress("unused")
-open class VRC(private val url: String, private val payload: Map<String, String>) {
+open class Vrc(private val url: String, private val payload: Map<String, String>) {
 
+    //get proper url from base url and payload
     fun getRequestedUrl(): String {
         var newUrl = "$url?"
         for (i in 0 until payload.size) {
@@ -13,6 +14,7 @@ open class VRC(private val url: String, private val payload: Map<String, String>
         return newUrl
     }
 
+    //get params value via key
     fun getParams(key: String): String {
         val value = payload[key]
         return value ?: "Key not exist"
