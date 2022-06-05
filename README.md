@@ -1,7 +1,7 @@
 # VolleyRequestConverter-android
 Convert your volley request in URL and find value of Parameter using key.
 
-[![](https://jitpack.io/v/hvyas3662/VolleyRequestConverter-android.svg)](https://jitpack.io/#hvyas3662/VolleyRequestConverter-android)
+[![](https://jitpack.io/v/hvyas3662/VRC-android.svg)](https://jitpack.io/#hvyas3662/VRC-android)
 
 ## How to configure
 
@@ -15,16 +15,15 @@ allprojects {
 }
 
 dependencies {
-  implementation 'com.github.hvyas3662:VolleyRequestConverter-android:3.0'
+  implementation 'com.github.hvyas3662:VRC-android:v4.0'
 }
 ```
 
  ## How to use
- 
- ```java
-     String url = "http://Example.com/android/api/abcd.php";
-     Map<String, String> params = new HashMap<>();
-     params.put("param1", "data1");
-     params.put("param2", "data2");
-     String full_url = new VRC(url, params).getRequestedUrl();
+
+ ```kotlin
+        val url = "http://Example.com/android/api/abcd.php"
+val params: MutableMap<String, String> = HashMap()
+params["search"] = searchQuery
+val fullUrl: String = Vrc(url, params).getRequestedUrl()
 ```
