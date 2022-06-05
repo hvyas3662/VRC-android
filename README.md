@@ -22,7 +22,7 @@ dependencies {
  ## How to use
 
  ```kotlin
-        val url = "http://Example.com/android/api/abcd.php"
+val url = "http://Example.com/android/api/abcd.php"
 val params: MutableMap<String, String> = HashMap()
 params["search"] = searchQuery
 val fullUrl: String = Vrc(url, params).getRequestedUrl()
