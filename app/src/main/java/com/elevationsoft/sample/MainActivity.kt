@@ -1,4 +1,4 @@
-package com.hvyas.sample
+package com.elevationsoft.sample
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

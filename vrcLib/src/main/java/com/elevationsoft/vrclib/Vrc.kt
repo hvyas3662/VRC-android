@@ -1,4 +1,4 @@
-package com.hvyas.volleyrequestconverter
+package com.elevationsoft.vrclib
 
 @Suppress("unused")
 open class Vrc(private val url: String, private val payload: Map<String, String>) {

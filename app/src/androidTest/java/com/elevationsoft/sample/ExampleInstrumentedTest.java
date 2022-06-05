@@ -1,4 +1,4 @@
-package com.hvyas.sample;
+package com.elevationsoft.sample;
 
 import static org.junit.Assert.assertEquals;
 
