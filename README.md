@@ -19,7 +19,7 @@ allprojects {
 
 ```gradle
 dependencies {
-  implementation 'com.github.hvyas3662:VRC-android:v4.0'
+  implementation 'com.github.hvyas3662:VRC-android:v5.1'
 }
 ```
 
