@@ -7,7 +7,6 @@ import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.elevationsoft.vrclib.Vrc
-import com.hvyas.sample.R
 
 class MainActivity : AppCompatActivity() {
     private var tvUrl: TextView? = null
