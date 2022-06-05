@@ -5,21 +5,25 @@ Convert your volley request in URL and find value of Parameter using key.
 
 ## How to configure
 
- 1. Add maven in your root build.gradle at the end of repositories
- 2. Add the dependency
+1. Add maven in your root build.gradle
+
 ```gradle
 allprojects {
   repositories {
     maven { url 'https://jitpack.io' }
   }
 }
+```
 
+2. Add the dependency in your App level build.gradle
+
+```gradle
 dependencies {
   implementation 'com.github.hvyas3662:VRC-android:v4.0'
 }
 ```
 
- ## How to use
+## How to use
 
  ```kotlin
 val url = "http://Example.com/android/api/abcd.php"
